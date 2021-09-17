@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="IIE-V100">
+    <serverData>
+      <paths name="IIE-V100">
+        <serverdata>
+          <mappings>
+            <mapping deploy="my_git_laser" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
