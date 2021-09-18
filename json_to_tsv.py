@@ -15,7 +15,7 @@ source_text_path = 'your_data_path'
 with open (source_text_path, 'r', encoding='utf-8') as data_file,\
         open (source_text_path + "_generated.tsv", 'w', encoding='utf-8') as new_file:
     reader = jsonlines.Reader (data_file)
-    new_file.write ('source\ttarget\n')
+    # new_file.write ('source\ttarget\n')
     for line in reader:
         # source = line['initial']
         # target = line['counterfactual']

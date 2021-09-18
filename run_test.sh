@@ -8,7 +8,7 @@ BERT_BASE_DIR=~/pre-train/cased_L-12_H-768_A-12
 ### Optional parameters ###
 
 # If you train multiple models on the same data, change this label.
-EXPERIMENT=wikisplit_experiment
+EXPERIMENT=cfg_experiment
 # To quickly test that model training works, set the number of epochs to a
 # smaller value (e.g. 0.01).
 NUM_EPOCHS=3.0
